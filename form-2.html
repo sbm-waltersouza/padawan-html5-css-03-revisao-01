@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 2</title>
+    <link rel="stylesheet" href="form-2.css">
+</head>
+
+<body>
+
+
+    <div class="container-2">
+        <h1>Cadastro de Consultas</h1>
+        <p>Dados pessoais</p>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Nome..">
+
+        <label for="cpf">CPF</label>
+        <input type="number" name="cpf" id="cpf" placeholder="CPF" required>
+
+        <label for="telefone">Telefone</label>
+        <input type="number" name="telefone" id="telefone" placeholder="(XX) XXXXX-XXXX">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+
+        <hr>
+
+        <p>Endereço</p>
+        <label for="pais">País</label>
+        <input type="text" name="pais" id="pais" placeholder="Pais">
+
+        <label for="estado">Estado</label>
+        <input type="text" name="estado" id="estado" placeholder="Estado">
+
+        <label for="cep">CEP</label>
+        <input type="text" name="cep" id="cep" placeholder="CEP">
+
+        <label for="rua">Rua</label>
+        <input type="text" name="rua" id="rua" placeholder="Rua">
+
+        <label for="bairro">Bairro</label>
+        <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+
+        <label for="complemento">Complemento</label>
+        <input type="text" name="complemento" id="complemento" placeholder="Complemento">
+
+        <hr>
+
+        <p>Agende sua Consulta</p>
+        <label for="especialidade">Escolha a especialidade médica:</label>
+        <select name="especialidade" id="especialidade">
+            <option value="">Clínica Médica</option>
+            <option value="">Ginecologia</option>
+            <option value="">Dermatologia</option>
+            <option value="">Gastroenterologia</option>
+        </select>
+
+        <label for="convenio">Selecione o convênio:</label>
+        <select name="convenio" id="convenio">
+            <option value="">Notredame</option>
+            <option value="">ConveniotAl</option>
+            <option value="">Pague Menos</option>
+        </select>
+
+        <label for="unidade">Selecione a unidade:</label>
+        <select name="unidade" id="unidade">
+            <option value="">São Paulo</option>
+            <option value="">Rio de Janeiro</option>
+            <option value="">Recife</option>
+        </select>
+
+        <label for="data">Data para consulta:</label>
+        <input type="date" id="data" name="data">
+
+        <label for="receita">Adicione uma receita médica:</label>
+        <input type="file" id="receita" name="receita">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>9h ~ 23h</td>
+                </tr>
+                <tr>
+                    <td>Terça</td>
+                    <td>9h ~ 23h</td>
+                </tr>
+                <tr>
+                    <td>Quinta</td>
+                    <td>9h ~ 23h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>9h ~ 23h</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<a href="index.html">aqui</a>
+<a href="form-video.html">aqui</a>
+
+</html>
